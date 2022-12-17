@@ -2,6 +2,8 @@
 
 This project comes out as part of the work done in my Master thesis. Here ML algorithms are used - using World Bank data - to obtain models with higher performance - measured in MAE and MSE - than standard econometric models - such as those used by the IMF. Years 2010 to 2019 are selected to exclude crisis in 2009 and 2020.
 
+*Disclaimer: the code was written before learning best practices in Python, thus is not the most efficient - e.g. vectorization vs loops*
+
 ## Overview of process:
 The following steps are taken into consideration:
 - **Data downloading:** using the World Bank API
