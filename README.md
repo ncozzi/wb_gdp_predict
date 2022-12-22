@@ -22,7 +22,7 @@ The following steps are taken into consideration:
 -------------------
 ## Notebooks:
 - *wb1_api_data.ipynb*: querying and downloading data from the World Bank dataset API
-- *wb2_data_manipulation.ipynb*: data preparation (cleaning data, removing outliers, etcetera), downloading the benchmark, exploratory analysis
+- *wb2_data_manipulation.ipynb*: data preparation (cleaning data, selecting countries, removing outliers, etcetera), downloading benchmark, exploratory analysis
 - *wb3_gdp_predict.ipynb*: building ML regression models, assessing best performer
 
 ----------------------
