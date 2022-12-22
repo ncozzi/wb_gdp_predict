@@ -6,7 +6,7 @@ Some caveats:
 * Annual data is utilized, which might heavily decrease the accuracy; research has shown better results when using quarterly data
 * Quarterly GDP growth is available in the OECD dataset, which would restrict the scope of countries
 * Different data collection methodologies and standards of quality across governments might introduce extra bias in some observations and groups
-* For neural networks, only basic multi-layer perceptrons were built; an extension for the future is assessing extensions of LTSM and RNN for corss-sectional data
+* For neural networks, only basic multi-layer perceptrons were built; an extension for the future is assessing extensions of LTSM and RNN for panel data
 
 This project is inspired by my MSc Statistics and Data Science thesis research; what you see here is part of the resulting work - in this notebook I am focusing exclusively on the development of supervised learning models
 
