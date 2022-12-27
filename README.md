@@ -11,8 +11,15 @@ Some caveats:
 
 This project is inspired by my MSc Statistics and Data Science thesis research; what you see here is part of the resulting work - in this notebook I am focusing exclusively on the development of supervised learning models
 
+----------------------
+## Notebooks:
+- *wb1_api_data.ipynb*: querying and downloading data from the World Bank dataset API
+- *wb2_data_manipulation.ipynb*: data preparation (cleaning data, selecting countries, removing outliers, etcetera), downloading benchmark, exploratory analysis
+- *wb3_gdp_predict.ipynb*: building ML regression models, assessing best performer
+-----------------------
 
-## Overview of process:
+
+## Overview of the project:
 The following steps are taken into consideration:
 - **Data downloading:** using the World Bank API
 - **Data preparation:** cleaning data, selecting years, etcetera
@@ -20,11 +27,6 @@ The following steps are taken into consideration:
 - **Outlier detection:** to assess whether certain countries may have data quality issues
 - **Training ML models:** different models are attempted and trained, using walk forward CV for time series to tune hyperparameters
 - **Forecast combination**
--------------------
-## Notebooks:
-- *wb1_api_data.ipynb*: querying and downloading data from the World Bank dataset API
-- *wb2_data_manipulation.ipynb*: data preparation (cleaning data, selecting countries, removing outliers, etcetera), downloading benchmark, exploratory analysis
-- *wb3_gdp_predict.ipynb*: building ML regression models, assessing best performer
 
 ----------------------
 
