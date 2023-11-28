@@ -8,6 +8,8 @@ Some caveats:
 * Different data collection methodologies and standards of quality across governments might introduce extra bias in some observations and groups
 * For neural networks, only basic multi-layer perceptrons were built; an extension for the future is assessing extensions of LTSM and RNN for panel data
 * Another extension is decorrelating variables against GDP
+* **This project does not follow proper software engineering practices!!!** First, I was not yet as versed on them, and second, my focus was on passing the thesis instead of deploying code
+* In hindsight, data could have been quantile transformed instead of just plain standardized
 
 This project is inspired by my MSc Statistics and Data Science thesis research; what you see here is part of the resulting work - in this notebook I am focusing exclusively on the development of supervised learning models
 
